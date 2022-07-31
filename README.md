@@ -1,6 +1,6 @@
 # Heroku PDM Example (project skeleton)
 
-Heroku buiildpacks for Python (version 20 or 22) do not yet support [PDM](https://pdm.fming.dev/latest/) out of the box.
+[Heroku buildpacks](https://github.com/heroku/heroku-buildpack-python) for Python (version 20 or 22) do not yet support [PDM](https://pdm.fming.dev/latest/) out of the box. (See [Heroku docs](https://devcenter.heroku.com/articles/python-support))
 
 This repo provides a workaround. 
 
