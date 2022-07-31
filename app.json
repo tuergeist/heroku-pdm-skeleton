@@ -1,0 +1,7 @@
+{
+  "name": "PDM Sample",
+  "description": "A heroku app with PDM with pyproject.toml as package manager",
+  "repository": "https://github.com/tuergeist/heroku-pdm-skeleton",
+  "logo": "",
+  "keywords": ["python", "pdm"]
+}
