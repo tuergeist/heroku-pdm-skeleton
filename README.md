@@ -4,14 +4,14 @@
 
 This repo provides a workaround. 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 ## tl;dr
 
 This example provides a [requirements.txt](requirements.txt) with just pdm in it.
-The Procfile installs the environment from [pyproject.toml](pyproject.toml) and runs the service (unicorn-fastapi)
+The [Procfile](Procfile) installs the environment from [pyproject.toml](pyproject.toml) and runs the service (unicorn-fastapi)
 
-## How to use this
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## How to use this repository
 
 - checkout the repo
 - cd into the repo
