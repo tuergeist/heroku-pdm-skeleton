@@ -1,4 +1,7 @@
-pdm install
-echo '#!/app/.heroku/python/bin/python' > x
-tail -n +2 uvicorn >> x
-mv x /app/.venv/bin/uvicorn
+pdm install --no-isolation --no-self
+ls -la /
+ls -la /app
+ls -la /app/.venv/bin
+#echo '#!/app/.heroku/python/bin/python' > x
+#tail -n +2 uvicorn >> x
+#mv x /app/.venv/bin/uvicorn
