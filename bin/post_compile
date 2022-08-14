@@ -1,0 +1,3 @@
+pdm install --no-isolation --no-self --global
+ls -la /
+ls -la /app
